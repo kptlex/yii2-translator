@@ -1,0 +1,20 @@
+{
+    "name": "kptlex/yii2-translator",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Lex\\Yii2\\Translator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alexandr Satyshev",
+            "email": "kptlex@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0",
+        "yiisoft/yii2": "^2.0.41"
+    }
+}
