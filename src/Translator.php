@@ -55,7 +55,7 @@ final class Translator implements TranslatorInterface
      * @param string|null $locale
      * @return string
      */
-    public function translate(string $id, array $parameters = [], string $category = null, string $locale = null): string
+    public function translate(string $id, array $parameters = [], string|null $category = 'app', string $locale = null): string
     {
         return Yii::t($category, $id, $parameters, $locale);
     }
